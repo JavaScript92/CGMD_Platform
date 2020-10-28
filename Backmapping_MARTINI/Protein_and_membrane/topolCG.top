@@ -1,0 +1,43 @@
+#include "martini_v2.2.itp"
+#include "martini_v2.0_CHOL_02.itp"
+#include "martini_v2.0_DOPC_02.itp"
+#include "martini_v2.0_DOPE_02.itp"
+#include "martini_v2.0_DOPG_02.itp"
+#include "martini_v2.0_DOPS_02.itp"
+#include "martini_v2.0_DPPC_01.itp"
+#include "martini_v2.0_POPC_02.itp"
+#include "martini_v2.0_POPE_02.itp"
+#include "martini_v2.0_POPG_02.itp"
+#include "Protein_A.itp"
+#include "Protein_B.itp"
+#include "martini_v2.0_ions.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>CHOL:DOPC:DOPE:DOPG:DOPS:DPPC:POPC:POPE:POPG=10.0:10.0:10.0:10.0:10.0:10.0:10.0:10.0:10.0 LowerLeaflet>CHOL:DOPC:DOPE:DOPG:DOPS:DPPC:POPC:POPE:POPG=10.0:10.0:10.0:10.0:10.0:10.0:10.0:10.0:10.0
+
+[ molecules ]
+; name  number
+Protein_A        1
+Protein_B        1
+CHOL            32
+DOPC            32
+DOPE            32
+DOPG            32
+DOPS            32
+DPPC            32
+POPC            32
+POPE            32
+POPG            32
+CHOL            33
+DOPC            33
+DOPE            33
+DOPG            33
+DOPS            33
+DPPC            33
+POPC            33
+POPE            33
+POPG            33
+W           19509
+NA               487
+CL               302
